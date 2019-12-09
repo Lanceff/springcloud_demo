@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f45d14e1-6b61-438a-88a4-395b0c7186a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud_config_server_3344/cloud_config_server_3344.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_config_server_3344/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_config_server_3344/src/main/java/com/hui/ApplicationConfig3344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_config_server_3344/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,12 +276,24 @@
       <workItem from="1575727299101" duration="2147000" />
       <workItem from="1575805791134" duration="6031000" />
       <workItem from="1575850891126" duration="578000" />
-      <workItem from="1575894679501" duration="3367000" />
+      <workItem from="1575894679501" duration="3689000" />
     </task>
+    <task id="LOCAL-00001" summary="add cloud config application">
+      <created>1575902666171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575902666171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add cloud config application" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cloud config application" />
   </component>
   <component name="WindowStateProjectService">
     <state x="296" y="54" key="#ApplicationZuul5001" timestamp="1575815927410">
@@ -327,6 +332,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="458" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1575448025170" />
+    <state x="314" y="11" key="CommitChangelistDialog2" timestamp="1575902959242">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="314" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1575902959242" />
     <state x="561" y="180" key="FileChooserDialogImpl" timestamp="1575898691926">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
