@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud_zuul_5001" />
+        <module name="cloud_provider_8001" />
+        <module name="cloud_provider_hystrix_8003" />
+        <module name="cloud_eureka_7002" />
+        <module name="cloud_eureka_7001" />
+        <module name="cloud_hystrix_dashboard_6001" />
+        <module name="cloud_provider_8002" />
+        <module name="cloud_api" />
+        <module name="cloud_consumer_9001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="dept_8001" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

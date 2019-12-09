@@ -1,0 +1,33 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: CLOUD-DEPT-SERVER
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://49.234.126.244:3306/cloud?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: admin123
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+
+mybatis:
+  type-aliases-package: com.hui.entity
+
+logging:
+  level:
+    com.hui.mapper: DEBUG
+
+eureka:
+  instance:
+    instance-id: dept-server-hystrix-8003  #自定义服务别名
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+
