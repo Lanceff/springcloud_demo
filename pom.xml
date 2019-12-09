@@ -19,6 +19,7 @@
         <module>cloud_provider_hystrix_8003</module>
         <module>cloud_hystrix_dashboard_6001</module>
         <module>cloud_zuul_5001</module>
+        <module>cloud_config_server_3344</module>
     </modules>
 
     <properties>

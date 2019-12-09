@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f45d14e1-6b61-438a-88a4-395b0c7186a5" name="Default Changelist" comment="" />
+    <list default="true" id="f45d14e1-6b61-438a-88a4-395b0c7186a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud_config_server_3344/cloud_config_server_3344.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_server_3344/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_server_3344/src/main/java/com/hui/ApplicationConfig3344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_server_3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +68,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UVc6Ck6wREt1EXpQ8mekXAvMwi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
@@ -69,11 +80,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud_hystrix_dashboard_6001/src/main/resources" />
@@ -270,7 +283,7 @@
       <workItem from="1575727299101" duration="2147000" />
       <workItem from="1575805791134" duration="6031000" />
       <workItem from="1575850891126" duration="578000" />
-      <workItem from="1575894679501" duration="1847000" />
+      <workItem from="1575894679501" duration="3367000" />
     </task>
     <servers />
   </component>
@@ -366,10 +379,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1093" height="248" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1575529973022" />
-    <state x="399" y="145" key="Maven.ArtifactSearchDialog" timestamp="1575816403866">
+    <state x="399" y="145" key="Maven.ArtifactSearchDialog" timestamp="1575901725310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="399" y="145" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1575816403866" />
+    <state x="399" y="145" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1575901725310" />
     <state x="349" y="79" key="Registry" timestamp="1575507026885">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -382,10 +395,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1575507315789" />
-    <state x="346" y="112" key="new project wizard" timestamp="1575812970122">
+    <state x="346" y="112" key="new project wizard" timestamp="1575901519085">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="346" y="112" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1575812970122" />
+    <state x="346" y="112" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1575901519085" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1575698848965">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

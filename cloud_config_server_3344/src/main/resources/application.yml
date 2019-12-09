@@ -1,0 +1,13 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-server-3344
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Lanceff/springcloud_project.git # git仓库的地址
+          search-paths: spring-cloud-configs  # git仓库地址下的相对地址，可以配置多个，用,分割。
+#          username: Lanceff     #Git仓库用户名
+#          password: xxx  #Git仓库密码

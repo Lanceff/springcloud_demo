@@ -14,6 +14,7 @@
         <module name="cloud_hystrix_dashboard_6001" />
         <module name="cloud_provider_8002" />
         <module name="cloud_api" />
+        <module name="cloud_config_server_3344" />
         <module name="cloud_consumer_9001" />
       </profile>
     </annotationProcessing>
