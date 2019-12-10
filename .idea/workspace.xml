@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f45d14e1-6b61-438a-88a4-395b0c7186a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud_config_eureka_7003/cloud_config_eureka_7003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_eureka_7003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_eureka_7003/src/main/java/com/hui/ApplicationConfig7003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_provider_hystrix_8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_provider_hystrix_8004/src/main/java/com/hui/ApplicationConfig8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_provider_hystrix_8004/src/main/java/com/hui/controller/ProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_provider_hystrix_8004/src/main/java/com/hui/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_provider_hystrix_8004/src/main/java/com/hui/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_provider_hystrix_8004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_provider_hystrix_8004/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-configs/eureka_server.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-configs/hystrix_provider.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_config_server_3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_config_server_3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-configs/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_config_eureka_7003/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-configs/eureka-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_config_eureka_7003/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +100,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud_hystrix_dashboard_6001/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud_config_provider_hystrix_8004/src/main/java/com/hui" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17497556" />
     <property name="project.structure.side.proportion" value="0.449095" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\springcloud_project\cloud_config_provider_hystrix_8004\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hui.mapper" />
       <recent name="com.hui.service" />
@@ -97,11 +118,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\springcloud_project\cloud_config_provider_hystrix_8004\src\main\java\com\hui" />
+      <recent name="E:\springcloud_project\cloud_config_eureka_7003\src\main\java\com\hui" />
       <recent name="E:\springcloud_project\cloud_hystrix_dashboard_6001\src\main\resources" />
       <recent name="E:\springcloud_project\cloud_provider_hystrix_8003\src\main\java\com" />
       <recent name="E:\springcloud_project\cloud_provider_hystrix_8003\src\main\java" />
-      <recent name="E:\springcloud_project\cloud_provider_hystrix_8003\src\main\resources" />
-      <recent name="E:\springcloud_project\cloud_consumer_9001\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -238,11 +259,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -276,7 +292,8 @@
       <workItem from="1575727299101" duration="2147000" />
       <workItem from="1575805791134" duration="6031000" />
       <workItem from="1575850891126" duration="578000" />
-      <workItem from="1575894679501" duration="3689000" />
+      <workItem from="1575894679501" duration="3938000" />
+      <workItem from="1575937829702" duration="4202000" />
     </task>
     <task id="LOCAL-00001" summary="add cloud config application">
       <created>1575902666171</created>
@@ -285,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575902666171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add cloud config yml file">
+      <created>1575903179831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575903179831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +317,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add cloud config application" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cloud config application" />
+    <MESSAGE value="add cloud config yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cloud config yml file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="296" y="54" key="#ApplicationZuul5001" timestamp="1575815927410">
@@ -328,14 +353,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1575697516960" />
-    <state x="458" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575448025170">
+    <state x="458" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575940862915">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="458" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1575448025170" />
-    <state x="314" y="11" key="CommitChangelistDialog2" timestamp="1575902959242">
+    <state x="458" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1575940862915" />
+    <state x="314" y="11" key="CommitChangelistDialog2" timestamp="1575942202761">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="314" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1575902959242" />
+    <state x="314" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1575942202761" />
     <state x="561" y="180" key="FileChooserDialogImpl" timestamp="1575898691926">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -388,10 +413,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1093" height="248" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1575529973022" />
-    <state x="399" y="145" key="Maven.ArtifactSearchDialog" timestamp="1575901725310">
+    <state x="399" y="145" key="Maven.ArtifactSearchDialog" timestamp="1575938586772">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="399" y="145" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1575901725310" />
+    <state x="399" y="145" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1575938586772" />
     <state x="349" y="79" key="Registry" timestamp="1575507026885">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -400,14 +425,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1575898695316" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1575903292116">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1575903292116" />
     <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1575507315789">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1575507315789" />
-    <state x="346" y="112" key="new project wizard" timestamp="1575901519085">
+    <state x="346" y="112" key="new project wizard" timestamp="1575940692630">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="346" y="112" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1575901519085" />
+    <state x="346" y="112" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1575940692630" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1575698848965">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

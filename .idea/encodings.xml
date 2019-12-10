@@ -3,6 +3,10 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/cloud_api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_config_eureka_7003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_config_eureka_7003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_config_provider_hystrix_8004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_config_provider_hystrix_8004/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_config_server_3344/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_config_server_3344/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_consumer_9001/src/main/java" charset="UTF-8" />
