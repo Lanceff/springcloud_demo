@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud_api</artifactId>
+    <artifactId>cloud_comm_api</artifactId>
 
     <dependencies>
         <dependency>

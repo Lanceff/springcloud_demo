@@ -10,7 +10,6 @@
     <version>1.0.1</version>
 
     <modules>
-        <module>cloud_api</module>
         <module>cloud_provider_8001</module>
         <module>cloud_provider_8002</module>
         <module>cloud_consumer_9001</module>
@@ -22,6 +21,7 @@
         <module>cloud_config_server_3344</module>
         <module>cloud_config_eureka_7003</module>
         <module>cloud_config_provider_hystrix_8004</module>
+        <module>cloud_comm_api</module>
     </modules>
 
     <properties>

@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.hui</groupId>
-            <artifactId>cloud_api</artifactId>
+            <artifactId>cloud_comm_api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
