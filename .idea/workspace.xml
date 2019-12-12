@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f45d14e1-6b61-438a-88a4-395b0c7186a5" name="Default Changelist" comment="修改zipkin server配置文件">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_config_server_3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_config_server_3344/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_config_server_3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_config_server_3344/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_consumer_9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer_9001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_consumer_9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer_9001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_consumer_9001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer_9001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_eureka_7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_eureka_7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_eureka_7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_eureka_7001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_eureka_7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_eureka_7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_eureka_7002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_eureka_7002/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_hystrix_dashboard_6001/src/main/java/com/hui/Application6001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_hystrix_dashboard_6001/src/main/java/com/hui/Application6001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_hystrix_dashboard_6001/target/classes/com/hui/Application6001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_hystrix_dashboard_6001/target/classes/com/hui/Application6001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_8002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_8002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_8002/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_hystrix_8003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_hystrix_8003/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_hystrix_8003/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_hystrix_8003/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-configs/eureka_server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-configs/eureka_server.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-configs/hystrix_provider.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-configs/hystrix_provider.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-configs/zipkin_server.yml" beforeDir="false" />
-    </list>
+    <list default="true" id="f45d14e1-6b61-438a-88a4-395b0c7186a5" name="Default Changelist" comment="修改zipkin server配置文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -412,7 +387,7 @@
       <workItem from="1575963752452" duration="13964000" />
       <workItem from="1576062868143" duration="3880000" />
       <workItem from="1576112030306" duration="4945000" />
-      <workItem from="1576121445700" duration="5913000" />
+      <workItem from="1576121445700" duration="6198000" />
     </task>
     <task id="LOCAL-00001" summary="add cloud config application">
       <created>1575902666171</created>
