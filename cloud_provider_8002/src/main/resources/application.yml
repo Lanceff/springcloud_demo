@@ -20,7 +20,6 @@ spring:
           enabled: true
       connect-properties: {config.decrypt: true,config.decrypt.key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIvHR1B97vSJehrT5ZCdtpYAPIOrsyzA0rU7TqfTTp/MuzxmTT2Dwo37hl3y3UxYT4DDdTELYrAiN/KFwGh/FZECAwEAAQ==}
 
-
 mybatis:
   type-aliases-package: com.hui.entity
 

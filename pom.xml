@@ -22,6 +22,7 @@
         <module>cloud_config_eureka_7003</module>
         <module>cloud_config_provider_hystrix_8004</module>
         <module>cloud_comm_api</module>
+        <module>cloud_config_zipkin_5050</module>
     </modules>
 
     <properties>

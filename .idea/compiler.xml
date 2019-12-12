@@ -23,6 +23,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="cloud_api" target="11" />
+      <module name="cloud_config_zipkin_5050" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

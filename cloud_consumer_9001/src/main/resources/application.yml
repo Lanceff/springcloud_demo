@@ -10,7 +10,7 @@ eureka:
     instance-id: dept-consumer-9001  #自定义服务别名
   client:
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
 
 
 feign:

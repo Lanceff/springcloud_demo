@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f45d14e1-6b61-438a-88a4-395b0c7186a5" name="Default Changelist" comment="deal lombok problems">
+    <list default="true" id="f45d14e1-6b61-438a-88a4-395b0c7186a5" name="Default Changelist" comment="修改zipkin server配置文件">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_config_provider_hystrix_8004/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_config_provider_hystrix_8004/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_config_server_3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_config_server_3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_config_server_3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_config_server_3344/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_consumer_9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer_9001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_consumer_9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer_9001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_consumer_9001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer_9001/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud_eureka_7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_eureka_7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_eureka_7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_eureka_7001/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud_eureka_7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_eureka_7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_eureka_7002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_eureka_7002/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_hystrix_dashboard_6001/src/main/java/com/hui/Application6001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_hystrix_dashboard_6001/src/main/java/com/hui/Application6001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_hystrix_dashboard_6001/target/classes/com/hui/Application6001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_hystrix_dashboard_6001/target/classes/com/hui/Application6001.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud_provider_8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_8001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud_provider_8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_8002/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud_provider_8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_8002/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud_provider_8002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_8002/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_hystrix_8003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_hystrix_8003/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud_provider_hystrix_8003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_hystrix_8003/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_hystrix_8003/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_hystrix_8003/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-configs/eureka_server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-configs/eureka_server.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-configs/hystrix_provider.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-configs/hystrix_provider.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-configs/zipkin_server.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +146,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application8001">
+  <component name="RunManager" selected="Spring Boot.Application5050">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="cloud_api" />
       <option name="VM_PARAMETERS" />
@@ -184,6 +194,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_config_server_3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.ApplicationConfig3344" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application5001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_zuul_5001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.ApplicationZuul5001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application5050" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud_config_zipkin_5050" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.Application5050" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application6001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud_hystrix_dashboard_6001" />
       <extension name="coverage">
@@ -218,9 +263,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_config_eureka_7003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.ApplicationConfig7003" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud_provider_8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.Application8001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_provider_8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.Application8002" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -239,6 +300,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_config_provider_hystrix_8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.ApplicationConfig8004" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud_consumer_9001" />
       <extension name="coverage">
@@ -252,31 +321,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationZuul5001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="cloud_zuul_5001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.ApplicationZuul5001" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.Application8001" />
       <item itemvalue="Spring Boot.Application7002" />
-      <item itemvalue="Spring Boot.ApplicationZuul5001" />
+      <item itemvalue="Spring Boot.Application5001" />
+      <item itemvalue="Spring Boot.Application7003" />
+      <item itemvalue="Spring Boot.Application8002" />
+      <item itemvalue="Spring Boot.Application8004" />
+      <item itemvalue="Spring Boot.Application3344" />
       <item itemvalue="Spring Boot.Application9001" />
       <item itemvalue="Spring Boot.Application8003" />
       <item itemvalue="Spring Boot.Application6001" />
       <item itemvalue="Spring Boot.Application7001" />
+      <item itemvalue="Spring Boot.Application5050" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application5050" />
         <item itemvalue="Spring Boot.Application7001" />
         <item itemvalue="Spring Boot.Application9001" />
         <item itemvalue="Spring Boot.Application6001" />
@@ -298,7 +359,12 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -344,7 +410,9 @@
       <workItem from="1575963476092" duration="44000" />
       <workItem from="1575963547977" duration="179000" />
       <workItem from="1575963752452" duration="13964000" />
-      <workItem from="1576062868143" duration="2853000" />
+      <workItem from="1576062868143" duration="3880000" />
+      <workItem from="1576112030306" duration="4945000" />
+      <workItem from="1576121445700" duration="5913000" />
     </task>
     <task id="LOCAL-00001" summary="add cloud config application">
       <created>1575902666171</created>
@@ -367,7 +435,28 @@
       <option name="project" value="LOCAL" />
       <updated>1575965427036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="使用druid加密数据库密码">
+      <created>1576065807509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576065807509</updated>
+    </task>
+    <task id="LOCAL-00005" summary="zipkin config配置文件">
+      <created>1576116401180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576116401180</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改zipkin server配置文件">
+      <created>1576130937666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576130937670</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +466,11 @@
     <MESSAGE value="add cloud config application" />
     <MESSAGE value="add cloud config yml file" />
     <MESSAGE value="deal lombok problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="deal lombok problems" />
+    <MESSAGE value="使用druid加密数据库密码" />
+    <MESSAGE value="zipkin config配置文件" />
+    <MESSAGE value="项目添加zipkin配置文件" />
+    <MESSAGE value="修改zipkin server配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改zipkin server配置文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="296" y="54" key="#ApplicationZuul5001" timestamp="1575815927410">
@@ -392,10 +485,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" width="975" height="682" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1575725534873" />
-    <state x="223" y="72" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575966420833">
+    <state x="312" y="68" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576112732830">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1575966420833" />
+    <state x="312" y="68" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1576112732830" />
     <state x="511" y="253" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1575507830902">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -404,10 +497,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1575704652807" />
-    <state x="535" y="200" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1575727469634">
+    <state x="535" y="200" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576112714334">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="535" y="200" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1575727469634" />
+    <state x="535" y="200" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1576112714334" />
     <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575697516960">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -416,46 +509,46 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="458" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1575940862915" />
-    <state x="314" y="11" key="CommitChangelistDialog2" timestamp="1575965517295">
+    <state x="314" y="11" key="CommitChangelistDialog2" timestamp="1576130935199">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="314" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1575965517295" />
-    <state x="561" y="180" key="FileChooserDialogImpl" timestamp="1575975124272">
+    <state x="314" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1576130935199" />
+    <state x="561" y="180" key="FileChooserDialogImpl" timestamp="1576133146768">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="561" y="180" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1575975124272" />
-    <state width="1135" height="290" key="GridCell.Tab.0.bottom" timestamp="1576065757528">
+    <state x="561" y="180" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1576133146768" />
+    <state width="1135" height="652" key="GridCell.Tab.0.bottom" timestamp="1576133041326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1135" height="290" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576065757528" />
-    <state width="1135" height="290" key="GridCell.Tab.0.center" timestamp="1576065757528">
+    <state width="1135" height="652" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576133041326" />
+    <state width="1135" height="652" key="GridCell.Tab.0.center" timestamp="1576133041326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1135" height="290" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1576065757528" />
-    <state width="1135" height="290" key="GridCell.Tab.0.left" timestamp="1576065757528">
+    <state width="1135" height="652" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1576133041326" />
+    <state width="1135" height="652" key="GridCell.Tab.0.left" timestamp="1576133041326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1135" height="290" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1576065757528" />
-    <state width="1135" height="290" key="GridCell.Tab.0.right" timestamp="1576065757528">
+    <state width="1135" height="652" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1576133041326" />
+    <state width="1135" height="652" key="GridCell.Tab.0.right" timestamp="1576133041326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1135" height="290" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1576065757528" />
-    <state width="1135" height="290" key="GridCell.Tab.1.bottom" timestamp="1576065757529">
+    <state width="1135" height="652" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1576133041326" />
+    <state width="1135" height="652" key="GridCell.Tab.1.bottom" timestamp="1576133041326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1135" height="290" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576065757529" />
-    <state width="1135" height="290" key="GridCell.Tab.1.center" timestamp="1576065757529">
+    <state width="1135" height="652" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576133041326" />
+    <state width="1135" height="652" key="GridCell.Tab.1.center" timestamp="1576133041326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1135" height="290" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1576065757529" />
-    <state width="1135" height="290" key="GridCell.Tab.1.left" timestamp="1576065757529">
+    <state width="1135" height="652" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1576133041326" />
+    <state width="1135" height="652" key="GridCell.Tab.1.left" timestamp="1576133041326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1135" height="290" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1576065757529" />
-    <state width="1135" height="290" key="GridCell.Tab.1.right" timestamp="1576065757529">
+    <state width="1135" height="652" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1576133041326" />
+    <state width="1135" height="652" key="GridCell.Tab.1.right" timestamp="1576133041326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1135" height="290" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1576065757529" />
+    <state width="1135" height="652" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1576133041326" />
     <state width="1135" height="275" key="GridCell.Tab.2.bottom" timestamp="1576064901323">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -472,41 +565,45 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1135" height="275" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1576064901323" />
-    <state x="302" y="89" key="Maven.ArtifactSearchDialog" timestamp="1575967138063">
+    <state x="390" y="145" key="Maven.ArtifactSearchDialog" timestamp="1576132882923">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="302" y="89" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1575967138063" />
+    <state x="390" y="145" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1576132882923" />
     <state x="349" y="79" key="Registry" timestamp="1575507026885">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="349" y="79" key="Registry/0.0.1536.834@0.0.1536.834" timestamp="1575507026885" />
+    <state x="472" y="127" key="RollbackChangesDialog" timestamp="1576130453147">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="472" y="127" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1576130453147" />
     <state x="135" y="22" width="1206" height="715" key="SettingsEditor" timestamp="1575964806649">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="135" y="22" width="1206" height="715" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1575964806649" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1575965453524">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1576130955130">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1575965453524" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1576130955130" />
     <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1575507315789">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1575507315789" />
-    <state x="562" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575965507395">
+    <state x="562" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576130855262">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="562" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1575965507395" />
+    <state x="562" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1576130855262" />
     <state x="447" y="24" width="782" height="786" key="find.popup" timestamp="1575965254192">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="447" y="24" width="782" height="786" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1575965254192" />
-    <state x="346" y="112" key="new project wizard" timestamp="1575964935074">
+    <state x="346" y="112" key="new project wizard" timestamp="1576115125631">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="346" y="112" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1575964935074" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1575975119254">
+    <state x="346" y="112" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1576115125631" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1576116611015">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1575975119254" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1576116611015" />
   </component>
 </project>

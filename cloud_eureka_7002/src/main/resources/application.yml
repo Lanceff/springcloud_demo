@@ -9,4 +9,3 @@ eureka:
     register-with-eureka: false #是否将自己注册到Eureka服务中，本身所以无需注册
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/
-

@@ -3,6 +3,13 @@ server:
 spring:
   application:
     name: cloud-config-server-3344
+  sleuth:
+    sampler:
+      probability: 1
+    web:
+      enabled: true
+  zipkin:
+    base-url: http://localhost:5050/  #zipkin服务地址
   cloud:
     config:
       server:
